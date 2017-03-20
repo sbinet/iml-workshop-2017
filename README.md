@@ -3,6 +3,7 @@
 A simple repository to show how one can access and read data for the [IMLWorkshop-2017](https://gitlab.cern.ch/IML-WG/IMLWorkshop2017-Challenge) challenge.
 
 ![hist-example](https://github.com/sbinet/iml-workshop-2017/raw/master/plots.png)
+
 [embedmd]:# (main.go go)
 ```go
 package main
