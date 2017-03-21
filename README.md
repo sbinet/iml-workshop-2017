@@ -2,6 +2,10 @@
 
 A simple repository to show how one can access and read data for the [IMLWorkshop-2017](https://gitlab.cern.ch/IML-WG/IMLWorkshop2017-Challenge) challenge.
 
+Note that `go-hep.org/x/hep/rootio` exposes a nice command to automatically
+generate a Go type from the `rootio.Tree` metadata.
+See: [rootio/cmd/root-gen-datareader](https://godoc.org/go-hep.org/x/hep/rootio/cmd/root-gen-datareader).
+
 ![hist-example](https://github.com/sbinet/iml-workshop-2017/raw/master/plots.png)
 
 [embedmd]:# (main.go go)
