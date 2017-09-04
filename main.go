@@ -40,7 +40,7 @@ func main() {
 
 	log.Printf("tree %q nevts=%d\n", tree.Name(), tree.Entries())
 
-	sc, err := rootio.NewScanner(tree, &Event{})
+	sc, err := rootio.NewTreeScanner(tree, &Event{})
 	if err != nil {
 		log.Fatal(err)
 	}
