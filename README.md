@@ -18,8 +18,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/gonum/plot/vg"
-	"github.com/gonum/plot/vg/draw"
+	"gonum.org/v1/plot/vg"
+	"gonum.org/v1/plot/vg/draw"
 	"go-hep.org/x/hep/hbook"
 	"go-hep.org/x/hep/hplot"
 	"go-hep.org/x/hep/rootio"
